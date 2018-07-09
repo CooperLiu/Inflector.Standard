@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inflector", "src\Inflector\Inflector.csproj", "{CA920306-9A92-421E-81C9-09AD6471E1CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inflector.Tests", "test\Inflector.Tests\Inflector.Tests.csproj", "{BAF6876C-C22B-46A1-A5D9-57F3F0AED8AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soluation-items", "Soluation-items", "{A8E257B2-50C7-4BFC-952F-75C83D4928A4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		common.props = common.props
+		Inflector_icon.png = Inflector_icon.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA920306-9A92-421E-81C9-09AD6471E1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA920306-9A92-421E-81C9-09AD6471E1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA920306-9A92-421E-81C9-09AD6471E1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA920306-9A92-421E-81C9-09AD6471E1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF6876C-C22B-46A1-A5D9-57F3F0AED8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF6876C-C22B-46A1-A5D9-57F3F0AED8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF6876C-C22B-46A1-A5D9-57F3F0AED8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF6876C-C22B-46A1-A5D9-57F3F0AED8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB8AA1D7-8EF9-4648-A1B3-C87F12718ADE}
+	EndGlobalSection
+EndGlobal
